@@ -118,3 +118,21 @@ function oddEvenNum(number) {
 const age = 28;
 const result = oddEvenNum(age);
 console.log(result);
+
+
+
+
+function smallestNumber(numbers) {
+    // storing numbers in array 
+    let smallNumber = numbers[0];
+    for (let i = 0; i < numbers.length; i++){
+        const number = numbers[i];
+        if (numbers[i] < smallNumber) {
+            smallNumber = number;
+            
+            
+        }
+        
+    }
+    return smallNumber;
+}
