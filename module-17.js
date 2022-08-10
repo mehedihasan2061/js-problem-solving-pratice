@@ -70,9 +70,9 @@ largest number using if-else.
 
 // find the smallest number
 
-var number1 = 7;
-var number2 = 13;
-var number3 = 3;
+var number1 = 67;
+var number2 = 43;
+var number3 = 53;
 
 if (number1 < number2) {
     if (number1 < number3) {
